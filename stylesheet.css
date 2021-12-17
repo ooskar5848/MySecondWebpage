@@ -1,0 +1,217 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.header .logo {
+    font-weight: bold;
+    font-size: 20px;
+    color:rgb(20, 20, 20) ;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+
+a:link {
+    text-decoration: none;
+    color:rgb(20, 20, 20) ;
+    font-weight: bolder;
+}
+
+.container {
+    height: 480px;
+    background-color: rgb(100, 112, 139)
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    text-align: left;
+    margin-left: 500px;
+    margin-right: 150px;
+    align-items: flex-start;
+    color:rgb(217, 211, 194)
+
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#button1 {
+    max-width: 75px;
+    border-radius: 10px;
+    padding: 4px 8px;
+    background-color: rgb(217, 211, 194);
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.container2 {
+    display: flex;
+    background-color: rgb(220, 220, 220);
+    flex-direction: column;
+    height: 400px;
+    align-items: center;
+}
+
+.container2 .oops {
+    margin-bottom: 110px;
+}
+.container2 .container3 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.b, .c, .d, .e {
+    max-width: 150px;
+}
+
+.container3 .f, .g, .h, .i{
+    border-radius: 6px;
+}
+
+.container4 {
+    display: flex;
+    height: 300px;
+    background-color: rgb(240, 240, 240);
+    justify-content: center;
+    align-items: center;
+}
+
+.containerr {
+    max-width: 550px;
+}
+
+.quote {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.person {
+    text-align: right;
+    font-weight: bold;
+}
+
+.container5 {
+    display: flex;
+    height: 220px;
+    background-color: rgb(220, 220, 220);
+    align-items: center;
+    justify-content: center;
+}
+
+.container6 {
+    width: 1300px;
+    max-height: 120px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(100, 112, 139);
+    
+}
+
+.container6 .content2 {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+margin-right: 150px;
+margin-left: 100px;
+margin-bottom: 30px;
+}
+ 
+#header {
+     font-size: 18px;
+     color: rgb(217, 211, 194);
+ }
+
+ #text {
+     color: rgb(217, 211, 194);
+ }
+
+ #button {
+     height: 30px;
+     width: 120px;
+     border-radius: 10px;
+     font-size: 14px;
+     font-weight: bold;
+     background-color: rgb(217, 211, 194)
+ }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(240, 240, 240,);
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img {
+    max-width: 900px;
+    max-height: 300px;
+}
+
+.f, .g, .h, .i {
+    max-height: 150px;
+    max-width: 150px;
+}
