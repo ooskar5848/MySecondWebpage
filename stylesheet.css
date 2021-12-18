@@ -32,8 +32,7 @@ a:link {
 
 .container {
     height: 480px;
-    background-color: rgb(100, 112, 139)
-    
+    background-color: rgb(100, 112, 139);
 }
 
 .content {
@@ -41,8 +40,8 @@ a:link {
     flex-direction: column;
     max-width: 450px;
     text-align: left;
-    margin-left: 500px;
-    margin-right: 150px;
+    margin-left: 200px;
+    margin-right: 100px;
     align-items: flex-start;
     color:rgb(217, 211, 194)
 
@@ -51,6 +50,7 @@ a:link {
 .container1 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 #button1 {
